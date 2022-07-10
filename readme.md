@@ -12,7 +12,67 @@ Sign language recognition (SLR) bridges the communication gap between the hearin
 
 
 
+# 一、选题背景
+
+## 创意来源
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000327.png)
+
+## 实现方案对比
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000347.png)
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000405.png)
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000443.png)
+
+# 二、设计方案
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000539.png)
+
+## 1、数据预处理
+
+### 1.1 数据集构建
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000705.png)
+
+### 1.2 降噪MSLE算法
+
+![基于极值(Minimaxi)原则的db12小波变换去噪效果最好](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711000751.png)
+
+### 1.3 使用双向双层LSTM神经网络进行Speech2Text转换
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711001111.png)
+
+## 2、实时识别系统构建
+
+### 2.1 系统概述
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711001153.png)
+
+### 2.2 系统评估
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711001225.png)
+
+## 方案优势
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711001313.png)
+
+# 三、演示
+
+## 1、单词识别
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711001413.png)
+
+## 2、句子识别
+
+![](https://raw.githubusercontent.com/BBQldf/PicGotest/master/20220711001443.png)
 
 
 
+
+
+# 结语：
+
+### --尽绵薄之力为社会贡献一点点力量~
 
